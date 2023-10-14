@@ -32,11 +32,11 @@ function Home() {
   }, []);
 
   return (
-    <div className="p-12 lg:mx-52 md:mx-16">
-      <p className={`pb-6 text-gray-300 font-mono ${subtitleAnimationStarted ? 'animate-text' : 'opacity-20'}`}>Welcome, I'm</p>
+    <div className="mb-52 mt-36 p-12 lg:mx-52 md:mx-16">
+      <p className={`pb-10 text-gray-300 font-mono ${subtitleAnimationStarted ? 'animate-text' : 'opacity-20'}`}>Welcome, I'm</p>
       <h1
         style={myFont.style}
-        className={`text-5xl text-white ${animationStarted ? 'animate-text' : 'opacity-20'
+        className={`mb-3 text-5xl text-white ${animationStarted ? 'animate-text' : 'opacity-20'
           }`}
       >
         I AM CESAR MARINES
