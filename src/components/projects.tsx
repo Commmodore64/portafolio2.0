@@ -40,7 +40,7 @@ function Projects() {
       name: "Analisis IKA",
       description: "Alghorithm for IKA Analysis",
       image: "/images/analisisPhone.png",
-      tags: ["AI"],
+      tags: ["PYTHON"],
       link: "https://taglify.vercel.app",
     },
   ];
