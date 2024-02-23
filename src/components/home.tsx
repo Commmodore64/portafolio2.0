@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import localFont from "next/font/local";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { SparklesCore } from "./ui/sparkles";
 
 //utils
 const myFont = localFont({ src: "../../fonts/brigendsexpanded-nrek1.otf" });
@@ -33,9 +34,20 @@ function Home() {
   }, []);
 
   return (
-    <div className="mb-52 mt-36 p-12 lg:mx-52 md:mx-16">
+    <div className="mx-auto max-w-4xl mb-10 mt-10 p-4 lg:p-12">
+      <div className="w-full absolute inset-0 h-[65px] opacity-40">
+        <SparklesCore
+          id="tsparticlesfullpage"
+          background="transparent"
+          minSize={0.6}
+          maxSize={1.4}
+          particleDensity={100}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
+        />
+      </div>
       <p
-        className={`pb-10 text-gray-300 font-mono ${
+        className={`pb-4 text-gray-300 font-mono ${
           subtitleAnimationStarted ? "animate-text" : "opacity-20"
         }`}
       >
@@ -91,7 +103,7 @@ function Home() {
         }
       `}</style>
       <p
-        className={`pt-10 text-gray-500 ${
+        className={`pt-4 text-gray-500 ${
           animationStarted ? "animate-text" : "opacity-10"
         }`}
       >
