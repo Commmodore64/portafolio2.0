@@ -107,10 +107,7 @@ function Home() {
           animationStarted ? "animate-text" : "opacity-10"
         }`}
       >
-        I'm a software developer based in Mexico, passionate about crafting
-        modern web platforms using cutting-edge technologies. I hold a TSU
-        degree and I'm on the path to becoming an engineer. I'm here to build
-        the digital future.
+I'm an engineer and currently work as a Full Stack developer, passionate about designing and developing modern web platforms using cutting-edge technologies. My journey began with a TSU degree, and my professional path has led me to establish myself in the world of software development. I'm committed to building the digital future through innovative and high-quality solutions.
       </p>
       <div className="mt-6">
         <Link href="mailto:cesarml2002@hotmail.com">
