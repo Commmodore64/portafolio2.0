@@ -30,6 +30,7 @@ function skills() {
         ))}
       </div>
       <Separator className="my-4 opacity-70" />
+      <h3 className="text-gray-200 text-xl font-semibold mt-5">Certificates</h3>
       <div className="flex justify-center items-center m-6">
         <Badge variant="secondary" className="m-2 text-sm">
           CISCO CCNAv7
